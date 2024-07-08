@@ -6,9 +6,9 @@ import java.util.Properties;
 
 public class DatabaseUtils {
 
-    private static final String DB_URL = "jdbc:postgresql://10.10.110.103:5432/pdfdownloader";
-    private static final String USER = "pdfuser"; // Substitua pelo seu nome de usuário
-    private static final String PASSWORD = "c4s4m4t@2019"; // Substitua pela sua senha
+    private static final String DB_URL = "jdbc:postgresql://localhost:5432/database";
+    private static final String USER = "dbuser"; // Substitua pelo usuário do banco de dados
+    private static final String PASSWORD = "dbpass"; // Substitua pela senha do banco de dados
 
     public static Connection getConnection() throws SQLException {
         Properties props = new Properties();
