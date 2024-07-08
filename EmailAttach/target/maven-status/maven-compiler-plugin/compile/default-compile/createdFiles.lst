@@ -1,0 +1,6 @@
+com\emailattachsender\emailattach\EmailAttachmentDownloader.class
+com\emailattachsender\emailattach\DatabaseUtils.class
+module-info.class
+com\emailattachsender\emailattach\EmailAttachmentDownloader$CustomFormatter.class
+com\emailattachsender\emailattach\EmailAttachmentSaverConfig.class
+com\emailattachsender\emailattach\EmailAttachmentDaemon.class
