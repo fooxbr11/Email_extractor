@@ -10,7 +10,6 @@ public class EmailAttachmentDaemon implements Daemon {
 
     @Override
     public void init(DaemonContext context) throws DaemonInitException, Exception {
-        // Inicialize recursos, se necessário
     }
 
     @Override
@@ -35,7 +34,6 @@ public class EmailAttachmentDaemon implements Daemon {
 
     @Override
     public void destroy() {
-        // Libere recursos, se necessário
     }
 
     public static void main(String[] args) {
