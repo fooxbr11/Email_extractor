@@ -226,8 +226,8 @@ public class EmailAttachmentSaverConfig extends Application {
             String currentDir = System.getProperty("user.dir");
             String defaultDestDir = currentDir + File.separator + "pdfsaver";
             config.setProperty("host", "imap.gmail.com");
-            config.setProperty("username", ""); // Adicione o valor padrão ou deixe vazio
-            config.setProperty("password", ""); // Adicione o valor padrão ou deixe vazio
+            config.setProperty("username", ""); 
+            config.setProperty("password", ""); 
             config.setProperty("inbox", "INBOX");
             config.setProperty("destDir", defaultDestDir);
         }
