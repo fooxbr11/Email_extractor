@@ -51,7 +51,7 @@ public class EmailAttachmentDownloader {
             emailSession.setDebug(true); // Ativar logs de depuração para a sessão
             logger.info("Sessão de e-mail criada.");
 
-            // Criar o objeto de store e conectar-se ao servidor de e-mail
+            // Criar o objeto de store e conectar ao servidor de e-mail
             Store store = emailSession.getStore("imaps");
             logger.info("Conectando ao servidor de e-mail...");
             store.connect(host, username, password);
